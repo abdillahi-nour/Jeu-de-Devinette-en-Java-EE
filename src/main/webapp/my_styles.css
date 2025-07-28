@@ -1,0 +1,102 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url('C:/Users/abdillahi/Desktop/abdillahi.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 450px;
+	background-color: #95e5f5fa;
+	padding: 20px;
+	border-radius: 20px;
+	max-width: 600px; /* Taille maximale de la div */
+	width: 90%; /* Largeur automatique centrée */
+}
+
+input[type="text"] {
+	text-align: center;
+	margin: 10px 0;
+	padding: 15px 20px;
+	width: 100%;
+	border: 2px solid #333;
+	border-radius: 6px;
+	outline: none;
+}
+
+#word {
+	color: #333;
+	text-align: center;
+	border: 1px solid #999;
+	padding: 5px;
+	width: 100%;
+	font-size: 35px;
+	border-radius: 6px;
+	text-transform: uppercase;
+}
+
+button {
+	text-decoration: none;
+	width: 200%;
+	padding: 15px 40px; /* Taille du padding ajustée pour les boutons */
+	color: #000;
+	border: 0;
+	border-radius: 9px;
+	cursor: pointer;
+	background-color: #d6c1c1;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #04685e;
+	color: #fff;
+}
+
+.button-container {
+	display: inline-flex;
+}
+
+.button-container button {
+	margin-right: 10px;
+}
+
+.victory-image {
+	max-width: 50px;
+	height: auto;
+}
+
+#message {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
