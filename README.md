@@ -18,7 +18,3 @@ Ce projet est une application web simple développée en Java EE. Le but du jeu 
 1. Importer dans un IDE Java (comme Eclipse)
 2. Déployer dans un serveur local Tomcat
 3. Accéder à `http://localhost:8080/jeux-jee-APP`
-
-## 👤 Auteur
-
-Abdillahi Nour Hassan
