@@ -1,46 +1,24 @@
-# 🎯 Jeu de Devinette en Java EE
+# 🎮 Application Java EE - Jeu de Devinette
 
-Une application web simple qui permet à l'utilisateur de deviner un mot caché avec un nombre limité d'essais. Ce projet illustre l'utilisation des technologies Java EE côté serveur, avec une interface dynamique grâce à JSP, JavaScript et Bootstrap.
+Ce projet est une application web simple développée en Java EE. Le but du jeu est de deviner un mot caché en un nombre limité d'essais.
 
-## 📌 Objectifs
+## 🔧 Technologies utilisées
 
-- Permettre à un joueur de deviner un mot choisi aléatoirement
-- Limiter le nombre de tentatives
-- Afficher des messages de succès ou d'échec
-- Offrir une interface attrayante et interactive
+- **Java EE** (Servlets)
+- **JSP** pour l'interface utilisateur
+- **JavaScript** pour désactiver le bouton "Deviner" après les essais
+- **Bootstrap** pour un design moderne et coloré
 
----
+## 🖼️ Aperçu de l'application
 
-## 🛠️ Technologies utilisées
+![Capture d'écran](jeux.png)
 
-- **Java EE** (Servlets + JSP)
-- **JavaScript** : pour désactiver le bouton "Deviner" une fois les essais terminés
-- **Bootstrap** : pour une interface moderne et colorée
-- **HTML/CSS** : structure de la page
-- **Tomcat** : serveur d'exécution
-- **Eclipse / IntelliJ** : IDE de développement
+## 🚀 Lancement
 
----
+1. Importer dans un IDE Java (comme Eclipse)
+2. Déployer dans un serveur local Tomcat
+3. Accéder à `http://localhost:8080/jeux-jee-APP`
 
-## 📸 Captures d'écran
+## 👤 Auteur
 
-### 🎮 Interface du jeu  
-![Interface du jeu](jeu.png)
-
----
-
-## ⚙️ Fonctionnalités
-
-- Initialisation du mot à deviner via la Servlet
-- Gestion des essais côté serveur
-- Affichage du nombre d’essais restants
-- Blocage du bouton après avoir atteint la limite d'essais
-- Redémarrage du jeu sans recharger la page
-
----
-
-## 🚀 Lancer l'application
-
-1. Cloner le dépôt :
-   ```bash
-   git clone https://github.com/ton-nom-utilisateur/jeu-devinette-javaee.git
+Abdillahi Nour Hassan
